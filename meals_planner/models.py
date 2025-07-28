@@ -1,6 +1,6 @@
 from django.db import models
 
-class Meals(models.Model):
+class Meal(models.Model):
     """Different kind of meals and also planning part"""
     name = models.CharField(max_length=100)
     """
