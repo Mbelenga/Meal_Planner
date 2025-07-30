@@ -4,7 +4,6 @@ body, h1, h2, p, ul {
   box-sizing: border-box;
 }
 
-/* Overall body style */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f7f9fc;
@@ -13,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* Header styles */
 header {
   background-color: #4CAF50;
   color: white;
@@ -23,7 +21,6 @@ header {
   margin-bottom: 20px;
 }
 
-/* Container for page content */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -33,13 +30,11 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Main heading */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-/* Subheadings */
 h2 {
   font-size: 1.5rem;
   color: #4CAF50;
@@ -47,12 +42,10 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Paragraphs */
 p {
   margin-bottom: 15px;
 }
 
-/* Navigation bar styles */
 nav {
   margin-bottom: 20px;
   text-align: center;
@@ -69,7 +62,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Buttons */
 button {
   background-color: #4CAF50;
   color: white;
