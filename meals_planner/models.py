@@ -22,12 +22,12 @@ class MealPlan(models.Model):
     date = models.DateField
 
 class Recipe(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.TextField(blank=True)
-    cooking_Time = models.IntegerField()
-    servings = models.IntegerField()
-    instructions = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    
+    name = models.CharField(max_length=100) #Name of the recipe
+    description = models.TextField(blank=True) #Short summary
+    cooking_Time = models.IntegerField() #Time in minutes
+    servings = models.IntegerField()    #How many people it feeds
+    instructions = models.TextField()   #Step-by-step instructions
+    created_at = models.DateTimeField(auto_now_add=True) #When it was added
+
 def __str__(self):
     return self.name
