@@ -4,3 +4,5 @@ from .models import Meal, Ingredient
 
 admin.site.register(Meal)
 admin.site.register(Ingredient)
+admin.site.register(MealPlan)
+admin.site.register(Recipe)
