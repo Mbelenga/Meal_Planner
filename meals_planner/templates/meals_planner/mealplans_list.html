@@ -1,0 +1,13 @@
+{% extends 'mealsplanner/index.html' %}
+{% block content %}
+
+<h2> All meal plans </h2>
+
+<ul>
+    {% for plan in mealplans %}
+    <li><strong>{{ plan.name }}</strong>: {{ plan.description }}</li>
+    {% empty %}
+    <li>No meal plans available</li>
+    {% endfor %}
+</ul>
+{% endblock %}
