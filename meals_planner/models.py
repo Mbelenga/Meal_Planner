@@ -19,7 +19,7 @@ class Ingredient(models.Model):
 class MealPlan(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True)
-    date = models.DateField
+    instructions = models.TextField()
 
 class Recipe(models.Model):
     name = models.CharField(max_length=100) #Name of the recipe

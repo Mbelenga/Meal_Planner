@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import MealPlan
-from .models import MealPlanForm
+from .forms import MealPlanForm
 
 def index(request):
     """ A simple Home Page for the Meal Planner """
