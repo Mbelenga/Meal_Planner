@@ -9,4 +9,7 @@ urlpatterns = [
 
     # Mealplans Page
     path('mealplans/', views.mealplans_list, name='mealplans_list'),
+
+    # Forms page 
+    path('mealplans/new/', views.create_mealplan, name='create_mealplan'),
 ]
