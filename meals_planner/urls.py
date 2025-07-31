@@ -11,5 +11,5 @@ urlpatterns = [
     path('mealplans/', views.mealplans_list, name='mealplans_list'),
 
     # Forms page 
-    path('mealplans/add/', views.create_mealplan, name='create_mealplan'),
+    path('create_mealplan/', views.create_mealplan, name='create_mealplan')
 ]
