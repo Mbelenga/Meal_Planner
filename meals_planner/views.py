@@ -20,13 +20,3 @@ def create_mealplan(request):
         form = MealPlanForm()
     
     return render(request, 'meals_planner/createmealplan.html', {'form': form})
-
-def add_mealplan(request):
-    if request.method == 'POST':
-        form = MealPlanForm(request.POST)
-        if form.is_valid():
-            form.save
-            return redirect('mealplans_list')
-    else:
-        form = MealPlanForm()
-    return render(request, 'meals_planner/add_mealplan.html', {'form': form})
