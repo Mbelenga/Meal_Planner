@@ -19,4 +19,4 @@ def create_mealplan(request):
     else:
         form = MealPlanForm()
     
-    return render(request, 'meals_planner/createmealplan.html', {'form': form})
+    return render(request, 'meals_planner/create_mealplan.html', {'form': form})
